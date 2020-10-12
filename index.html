@@ -16,7 +16,28 @@
         </div>
 
         <div class="buttonBox">
-            <h4>button place holder</h4>
+            <!-- <h4>button place holder</h4> -->
+
+            <form action="">
+                <fieldset>
+                    <label for="journalDate">Date of Entry</label>
+                    <input type="date" name="journalDate" id="journalDate">
+
+                    <label for="journalEntry">Journal Entry</label>
+                    <textarea name="journalEntry" id="journalEntry" cols="40" rows="5"></textarea>
+
+                    <label for="journalMood">Mood</label>
+                    <select name="journalMood" id="journalMood">
+                        <option value="tired">Tired</option>
+                        <option value="frustrated">Frustrated</option>
+                        <option value="encouraged">Encouraged</option>
+                        <option value="extatic">Extatic</option>
+                        <option value="nuetral">Nuetral</option>
+                    </select>
+
+                    <input type="submit" value="Submit Entry">
+                </fieldset>
+            </form>
         </div>
 
         <section class="journalEntryBox">
